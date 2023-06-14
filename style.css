@@ -1,0 +1,632 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 16px;
+
+
+}
+
+
+/*fixed-button*/
+
+.fixed-btn{
+    position: fixed;
+    background-color: #DB0B1B;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin-right: 40px;
+    bottom: 10vh;
+    right: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
+  }
+
+.fixed-btn:hover{
+    background-color: rgb(78, 78, 82);
+    transition: all 0.3s ease-in-out;;
+}
+
+
+
+
+.main-nav{
+    background-color: #DB0B1B;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+
+}
+
+.container{
+    max-width: 1252px;
+    margin: 0 auto;
+}
+.nav-wrapper{
+   
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.contact{
+    display: flex;
+    /*margin:5px;  */
+    /* padding: 5px;   */
+     justify-content: space-evenly; 
+     align-items: center; 
+     font-size: 18px; 
+     
+        
+}
+.contact p:hover{ 
+cursor: pointer;
+color: rgb(241, 218, 9);
+transition: all 0.3s ease-in-out;
+}
+
+.nav-wrapper>div{
+ width: 33%; 
+}
+.marque{
+     padding-left:100px; 
+     text-transform: uppercase;
+}
+.marque a{
+    cursor: pointer;
+    font-size: 18px;
+}
+.social-menu img{
+    width: 5%;
+    height: 4%;
+    float: right;
+    margin: 6px;
+    cursor: pointer;
+}
+
+
+/*menu start*/  /*sticky part*/
+
+
+.bap-container{
+  
+    background-color: white;
+    box-shadow: 5px 5px 15px lightgray;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.flex-container{  
+    display: grid;
+    grid-template-columns: auto auto 170px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center; 
+}
+.flex-container .flex-cont11 .menu li a{
+    cursor: pointer;
+    color: #0E0A38;
+    
+    font-family: 'rajdhani';
+    src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+font-size: larger;
+    
+
+}
+.flex-container .flex-cont11 .menu li:hover a{color: #DB0B1B;
+    transition: all 0.3s ease-in-out;
+
+}
+.flex-container .flex-cont11 .menu .active a{color: red;}
+
+.flex-container .logo img{
+    width: 200px;  
+}
+.flex-container .admission-btn{
+    border: none;
+    padding: 15px 15px; 
+    /* margin-left: 78px; */
+    background-color: #DB0B1B;
+    color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.flex-container .admission-btn:hover{
+    background-color: #05aa13;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.flex-cont11 .menu{
+    /* margin-left: 110px;  */
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.flex-container>div{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-align: justify;
+    
+    /* padding: 10px;  */
+}   
+
+.bap-container .flex-container .flex-cont11 ul.menu{
+    list-style-type: none;
+    /* display: flex;  */
+    /* margin: 10px;  */
+   
+}
+.bap-container .flex-container .flex-cont11 ul.menu li{
+    margin: 15px;
+     display: inline-block; 
+}
+.bap-container .flex-container .flex-cont11 .menu li:hover{
+    color: #DB0B1B;
+    transition: all 0.3s ease-in-out;
+}
+
+.bannner{
+    width: 100%;
+    
+}
+.bannner img{
+    width: 100%;
+    
+}
+
+/*content start*/
+
+
+#content-1{
+    background-color: white;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    max-width:1252px;
+     margin: 0 auto;
+     padding: 100px 0;
+     
+}
+.main-content .content h1{
+    font-family: 'rajdhani';
+    src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+font-size: xx-large;
+}
+    
+.main-content .content h4{
+    font-family: 'rajdhani';
+    src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+}
+    
+
+
+
+.main-content>div{
+     width: 50%; 
+    text-align: justify;  
+    padding: 20px;
+}
+.main-content .cont-image img{
+    width: 100%;
+    border: 1px solid rgb(212, 210, 210);
+}
+.content-btn{
+    background-color: #DB0B1B; 
+    padding: 15px 30px;
+    border: none;
+    border-radius:5px;
+    margin-top: 20px;
+}
+.content-btn:hover{
+    background-color: darkblue;
+    transition: all 0.3s ease-in-out;
+}
+.content-btn a{
+    font-weight: 600;
+    font-family: 'rajdhani';
+    src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-size:17px;
+    letter-spacing: 1px;
+    }
+        
+
+
+
+
+
+
+/* course section */
+
+section{
+    padding: 100px 0; 
+}
+#course{
+    background-color:#f4f4f4;
+    
+}
+.container{
+    max-width: 1252px;
+    margin: 0 auto;  
+
+}
+.container h4{
+   font-family: 'rajdhani';
+        src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px; 
+    }
+        
+.container h1{
+   font-family: 'rajdhani';
+        src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+   
+    }
+        
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.course-wrapper {
+    display: flex;
+     margin-bottom: 50px; 
+}
+.single-course{
+    background-color: white;
+    box-shadow: 5px 5px 15px lightgray;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.single-course .course-image img{
+    width: 100%;
+}
+.single-course .course-content {
+    text-align: center;
+}
+.single-course .course-content h2, .single-course .course-content p{
+    margin-bottom: 20px;
+}
+.single-course .course-content .discount-section{
+    background-color: #f4f4f4;
+}
+
+
+.single-course .course-content .discount-section .fees-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 4px; */
+}
+
+.single-course .course-content .discount-section .fees-wrapper .fee{
+    background-color:white;
+     padding: 3px;  
+     margin: 2px;
+     font-size: small;
+    
+}
+
+
+
+
+
+.single-course .course-content button{
+    margin-bottom: 20px; 
+}
+.btn{
+    background-color: #DB0B1B;
+    padding: 10px 20px;
+    border: none;
+    border-radius:0 0 10px 10px;
+    border-top: 2px solid #333;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+   
+}
+.course-btn{
+    background-color: #DB0B1B; 
+    padding: 20px 40px;
+    border: none;
+    border-radius:5px;
+    margin-left: 530px; 
+   
+   
+}
+.container .course-btn a{
+    font-weight: 600;
+    font-family: 'rajdhani';
+    src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-size:17px;
+    letter-spacing: 1px;
+    
+}
+.course-btn:hover{
+    background-color: darkblue;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*content 22 start*/
+
+#main-container-2{
+    background-color: white;
+}
+.container{
+    max-width:1252px;
+     margin: 0 auto;    
+}
+
+.container h2{
+    /* margin-bottom: 40px; */
+}
+.container-wrapper{
+    display: grid;
+    
+     grid-template-columns:170px 150px 150px;
+     margin-left: 32px;
+     border-bottom:1px solid #c4c0c0;
+    
+}
+.container-wrapper>div{
+ font-size: 16px;
+ font-weight: bold;
+ margin-bottom: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ cursor: pointer;
+margin-top: 30px;
+}
+
+.container-wrapper .guideline1{
+    color:#DB0B1B;
+}
+
+
+.content2-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.content2-wrapper>div{
+    text-align: justify;  
+    padding: 30px; 
+}
+
+.content-btn2{
+    background-color: #DB0B1B; 
+    padding: 20px 40px;
+    border: none;
+    border-radius:5px;
+    margin-top: 40px;
+}
+.content-btn2:hover{
+    background-color: darkblue;
+    transition: all 0.3s ease-in-out;
+}
+.content-btn2 a{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*team start*/
+
+#team{
+    background-color: #f4f4f4;
+}
+
+.team-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.team-wrapper>div{
+margin: 10px;
+}
+.team-wrapper .pic1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.team-wrapper .pic1 img{
+    width: 100%;
+    /* padding: 5px; */
+}
+.team-wrapper .pic1 h2, h3{
+    text-align: center;
+    /* font-weight: 200; */
+}
+.team-wrapper .pic1 h3{
+    font-weight: 100;
+}
+
+
+
+
+
+
+/*event start*/
+
+
+section{
+     padding: 100px 0;  
+}
+#course-2{
+    background-color: white;
+    
+}
+.container{
+    max-width: 1252px;
+    margin: 0 auto;  
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.course-wrapper {
+    display: flex;
+     margin-bottom: 50px; 
+}
+.single-course{
+    box-shadow: 5px 5px 15px lightgray;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.single-course .course-image img{
+    width: 100%;
+}
+.single-course .course-content {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.single-course .course-content h2, .single-course .course-content p{
+    margin-bottom: 20px;
+}
+.single-course .course-content button{
+    margin-bottom: 10px; 
+}
+.single-course .course-content h3:hover{
+    color: red;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.schedule-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 15px;
+}
+.schedulel-wrapper .fa{
+color:#DB0B1B
+}
+
+
+
+
+.btn{
+    background-color: #DB0B1B;
+    padding: 10px 20px;
+    border: none;
+    border-radius:0 0 10px 10px;
+    border-top: 2px solid #333;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+   
+}
+.course-btn{
+    background-color: #DB0B1B; 
+    padding: 20px 40px;
+    border: none;
+    border-radius:5px;
+    margin-left: 530px; 
+   
+   
+}
+.container .course-btn a{
+    font-weight: 600;
+    font-family: 'rajdhani';
+    src: url('rajdhani-regular-webfont.woff2') format('woff2'), url('rajdhani-regular-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-size:17px;
+    letter-spacing: 1px;
+}
+.course-btn:hover{
+    background-color: darkblue;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*footer section start*/
+
+
+.section{
+    padding: 50px 0;
+ }
+.container{
+        max-width: 1252px;
+        margin: 0 auto;
+        
+    }
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* padding: 10px;  */
+    }
+.text{
+    padding: 30px;
+    font-size: 16px;
+    text-align: justify;
+    color: white;
+
+}
+.text img{
+        margin-top: 10px;
+        cursor: pointer;
+}
+
+.text .social-menu img{
+    width: 5%;
+    float: left; 
+    margin: 10px;
+}
+.text .social-menu img:first-child{
+    margin-left: 0;
+}
+.text .social-menu:hover{
+    color: #c9071b;
+    transition: all 0.3s ease-in-out;
+    
+} 
+.text p{line-height: 1.5;}
+
+#footer-section{
+    background-color: #0E0A38;
+} 
+
+ .footer-wrapper  img{
+    width: 180px; 
+    /* margin-bottom: 5px; */
+ } 
+ .footer-wrapper .text h2{
+    margin-bottom: 20px;
+
+ }
+ .copyright{
+    border-top: 0.5px solid #504e4e;
+    color: white;
+ }
+ .copyright p{
+   max-width: 1252px;
+    margin: 25px auto 0;
+ }
